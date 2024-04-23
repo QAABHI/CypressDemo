@@ -1,0 +1,12 @@
+{
+  "name": "chrome",
+  "family": "chromium",
+  "channel": "stable",
+  "displayName": "Chrome",
+  "version": "124.0.6367.60",
+  "path": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "minSupportedVersion": 64,
+  "majorVersion": "124",
+  "isHeadless": false,
+  "isHeaded": true
+}

@@ -1,0 +1,63 @@
+[
+  {
+    "description": "    App Registration",
+    "elements": [
+      {
+        "description": "",
+        "id": "ecommerce-registration;ecommerce-registration",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Ecommerce Registration",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Navigate to ecommerce registration page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1373000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User input all the form details",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 848000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User should view an success message",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "ecommerce-registration",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Ecommerce Registration",
+    "tags": [],
+    "uri": "cypress/integration/examples/BDD/ecomRegister.feature"
+  }
+]
