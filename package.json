@@ -1,0 +1,30 @@
+{
+  "name": "cypressdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "json": {
+      "enabled": true,
+      "output": "cypress/Reports/results.json"
+    },
+    "html": {
+      "enabled": false,
+      "output": "cypress/Reports/htmlResults.html"
+    }
+  },
+  "author": "abhi",
+  "license": "ISC",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.3",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "cypress": "^13.7.3"
+  },
+  "devDependencies": {
+    "multiple-cucumber-html-reporter": "^3.6.2"
+  }
+}
